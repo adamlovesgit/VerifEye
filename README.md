@@ -1,22 +1,48 @@
-<<<<<<< HEAD
-# VerifEye
-facial recognition for security purposes
-STEPS TO CONNECT
-1. use .env for database string
-2. use ckolkman.vscode-postgres to initiate connection
-3. remember to add .env into your gitignore file before you push
-4.test connection by running init.sql and checking the public tables in the postgresql explorer
-=======
-# React + Vite
+# VerifEye — Login/Signup UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, modern Login and Signup user interface for the VerifEye web application, built with **React**, **TailwindCSS**, and **Vite**.  
+Designed to be clean, fast, and accessible, and ready for future backend and authentication integration.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## Expanding the ESLint configuration
+> *(Screenshots coming soon.)*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> bd8d6a4 (Initial commit with login/signup UI)
+The project features a black background, a centered white card layout, smooth toggle between Login and Signup forms, and full mobile responsiveness.
+
+---
+
+## 🚀 Features
+
+- ⚡ Fully responsive for desktop and mobile
+- 🎨 Clean black-and-white modern design
+- ✍️ Login and Signup forms with smooth toggle button
+- 🌟 Built with TailwindCSS utility-first styling
+- 🛠️ Ready for backend authentication integration (e.g., Supabase, Firebase)
+- ♿ Accessible markup for better usability
+- 🔒 Structure ready for form validation
+
+---
+
+## 📂 Folder Structure
+
+
+---
+
+## 🛠️ Getting Started
+
+Follow these steps to run the project locally:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/adamlovesgit/VerifEye.git
+cd verifeye-ui
+npm install
+npm run dev
+
+5. Open the project in your browser
+Visit: http://localhost:5173
+
+✅ You will see the VerifEye login/signup UI!
